@@ -59,7 +59,7 @@ The Remote Interview Platform is a modern web application built using Next.js an
 
 ### 🏗️ Setup & Installation
 
-1️⃣ Clone the Repository
+```1️⃣ Clone the Repository
 
 git clone https://github.com/prashanth370/remote-interview-platform.git
 cd remote-interview-platform
