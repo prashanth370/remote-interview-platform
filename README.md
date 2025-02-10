@@ -57,47 +57,63 @@ The Remote Interview Platform is a modern web application built using Next.js an
 **├── README.md            # Project documentation**
 **└── package.json         # Dependencies and scripts**
 
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### 📌 Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js (LTS)](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- A **Clerk** account for authentication
+- A **Convex** account for the backend
+- A **Stream** account for video calls
+
 ### 🏗️ Setup & Installation
 
-```1️⃣ Clone the Repository
+***📥 Clone the Repository***
 
+```bash
 git clone https://github.com/prashanth370/remote-interview-platform.git
 cd remote-interview-platform
+```
 
-2️⃣ Install Dependencies
+***2️⃣ Install Dependencies***
 
+```bash
 npm install
+```
 
-3️⃣ Configure Environment Variables
+***3️⃣ Configure Environment Variables***
 
 Create a .env file in the root directory and add the required keys:
-
+```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
 NEXT_PUBLIC_STREAM_API_KEY=
 STREAM_SECRET_KEY=
+```
 
-4️⃣ Run the Development Server
+***4️⃣ Run the Development Server***
 
+```bash
 npm run dev
+```
+
 
 The app will be available at http://localhost:3000.
 
-🚀 Deployment
+## 🚀 Deployment
+
+***link: https://civil-polliwog-68.accounts.dev/sign-in#/?redirect_url=https%3A%2F%2Fremote-interview-platform-weld.vercel.app%2F***
 
 This project is optimized for deployment on Vercel. To deploy:
 
-Push your code to GitHub.
-
-Link the repository to Vercel.
-
-Add environment variables in Vercel settings.
-
-Deploy with a single click!
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Follow these steps:
 
@@ -111,26 +127,10 @@ Push to GitHub (git push origin feature-branch).
 
 Open a pull request.
 
-📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
+***This project is licensed under the MIT License.***
 
 🚀 Built with ❤️ by Banoth Prashanth
-
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
+mail: prashanthnayak577@gmail.com
+linkedin: https://www.linkedin.com/in/prashanth370/
